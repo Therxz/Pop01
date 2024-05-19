@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  background-color: rgb(235, 235, 235);
+}
+* {
+  font-family: Roboto;
+  font-size: 1rem;
+  text-align: center;
+}
+.tcok {
+  width: 327;
+  height: 72;
+}
+.ts {
+  width: 203;
+  height: 48;
+}
+input {
+  width: 201;
+  height: 49;
+  border-radius: 5px;
+}
+
+.btnc {
+  background: #ed6755;
+  color: white;
+  border-style: none;
+  -webkit-box-shadow: 6px 14px 18px -6px rgba(237, 103, 85, 0.64);
+  -moz-box-shadow: 6px 14px 18px -6px rgba(237, 103, 85, 0.64);
+  box-shadow: 6px 14px 18px -6px rgba(237, 103, 85, 0.64);
+}
+.btns {
+  background: #1c1b5e;
+  color: white;
+  border-style: none;
+  -webkit-box-shadow: 6px 14px 18px -6px rgba(28, 27, 94, 1);
+  -moz-box-shadow: 6px 14px 18px -6px rgba(28, 27, 94, 1);
+  box-shadow: 6px 14px 18px -6px rgba(28, 27, 94, 1);
+}
+.contpops {
+  width: 497px;
+  height: 399px;
+  top: 186px;
+  left: 518px;
+}
+.pop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 432px;
+  height: 389px;
+  top: 186px;
+  left: 583px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.close {
+  align-self: flex-end;
+  width: 30px;
+  height: 30px;
+}
